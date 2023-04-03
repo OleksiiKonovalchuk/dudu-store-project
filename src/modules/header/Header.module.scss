@@ -1,0 +1,25 @@
+.header {
+	background-color: #d03664;
+	padding-top: 20px;
+}
+.container {
+	width: 1290px;
+	margin: 0 auto;
+}
+.navWrapper {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.phone {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 19px;
+	margin-left: auto;
+}
+.catalogWrapper {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}

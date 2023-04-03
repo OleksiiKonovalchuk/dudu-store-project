@@ -1,0 +1,19 @@
+.list {
+	display: flex;
+	column-gap: 18px;
+}
+.item {
+	position: relative;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+}
+.rus::before {
+	content: '';
+	position: absolute;
+	left: -9px;
+	top: 2px;
+	background-color: #ffffff;
+	width: 1px;
+	height: 14px;
+}

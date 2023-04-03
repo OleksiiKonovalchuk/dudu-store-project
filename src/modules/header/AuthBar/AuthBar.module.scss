@@ -1,0 +1,14 @@
+.wrapper {
+	display: flex;
+	column-gap: 10px;
+}
+.logo {
+	width: 21px;
+	height: 21px;
+}
+.btn {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: inherit;
+}

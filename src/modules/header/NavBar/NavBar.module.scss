@@ -1,0 +1,13 @@
+.list {
+	display: flex;
+	column-gap: 20px;
+}
+.link {
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	&:global(.active) {
+		color: purple;
+	}
+}

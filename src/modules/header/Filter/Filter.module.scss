@@ -1,0 +1,26 @@
+.input {
+	background-color: rgba(255, 255, 255, 0.15);
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	width: 100%;
+	padding: 15px;
+	padding-right: auto;
+	color: #ffffff;
+	text-decoration: none;
+	&::placeholder {
+		color: #ffffff;
+	}
+}
+.form {
+	position: relative;
+	width: 100%;
+}
+.btn {
+	position: absolute;
+	right: 15px;
+	bottom: 50%;
+	transform: translateY(50%);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
