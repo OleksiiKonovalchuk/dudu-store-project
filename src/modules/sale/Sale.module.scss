@@ -1,8 +1,12 @@
+.sale {
+	margin-bottom: 80px;
+}
 .container {
 	width: 1290px;
 	margin: 0 auto;
 	display: flex;
 	column-gap: 28px;
+	flex-direction: column;
 }
 .header {
 	font-weight: 700;
@@ -31,4 +35,93 @@
 	display: flex;
 	column-gap: 10px;
 	align-items: center;
+	margin-bottom: 30px;
+}
+.list {
+	display: flex;
+	column-gap: 30px;
+}
+.item {
+	position: relative;
+	width: 234px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 13px;
+	&:hover .options {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+.options {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	bottom: 0;
+	transform: translateY(calc(100% + 13px));
+	display: flex;
+	gap: 15px;
+	transition: all linear 250ms;
+}
+.buyBtn {
+	padding: 20px;
+	width: 111px;
+	height: 57px;
+	background-color: #d03664;
+	border-radius: 5px;
+
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 17px;
+	color: #ffffff;
+}
+.imgWrapper {
+	position: relative;
+}
+.img {
+	width: 234px;
+	height: 234px;
+}
+.discount {
+	position: absolute;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 17px;
+	padding: 7px;
+	display: flex;
+	align-items: center;
+
+	color: #ffffff;
+	background-color: #f99c11;
+	border-radius: 5px;
+	left: 10px;
+	top: 10px;
+}
+.cardHeader {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 17px;
+
+	color: #000000;
+}
+.priceWrapper {
+	display: flex;
+	align-items: center;
+}
+.oldPrice {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #202020;
+}
+.hasDiscount {
+	text-decoration-line: line-through;
+	margin-right: 5px;
+}
+.newPrice {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 19px;
+	color: #f99c11;
 }

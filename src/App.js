@@ -20,7 +20,7 @@ function App() {
 		})
 	}, [])
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/dudu-store-project">
 			<Routes>
 				<Route path="/" element={<HomePage />}>
 					<Route path="about" element={<About />} />
