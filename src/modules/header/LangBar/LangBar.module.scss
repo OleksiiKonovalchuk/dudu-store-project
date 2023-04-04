@@ -8,12 +8,23 @@
 	font-size: 14px;
 	line-height: 16px;
 }
-.rus::before {
-	content: '';
-	position: absolute;
-	left: -9px;
-	top: 2px;
-	background-color: #ffffff;
-	width: 1px;
-	height: 14px;
+.ukr {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+}
+.rus {
+	text-decoration: underline;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	&::before {
+		content: '';
+		position: absolute;
+		left: -9px;
+		top: 2px;
+		background-color: #ffffff;
+		width: 1px;
+		height: 14px;
+	}
 }

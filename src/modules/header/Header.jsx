@@ -9,13 +9,16 @@ import Filter from './Filter/Filter'
 import UserMenu from './UserMenu/UserMenu'
 
 import css from './Header.module.scss'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 	return (
 		<header className={css.header}>
 			<div className={css.container}>
 				<div className={css.navWrapper}>
-					<img className={css.logo} src={logo} alt="logo" />
+					<Link to="/">
+						<img className={css.logo} src={logo} alt="logo" />
+					</Link>
 					<NavBar />
 					<a className={css.phone} href="tel:+380631284609">
 						(063) 128-46-09

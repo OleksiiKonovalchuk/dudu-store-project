@@ -1,0 +1,39 @@
+.container {
+	width: 1290px;
+	margin: 0 auto;
+	display: flex;
+	column-gap: 28px;
+}
+
+.hero {
+	margin-bottom: 80px;
+}
+.imgWrapper {
+	margin-top: 30px;
+}
+.img {
+	width: 1028px;
+	// height: 568px;
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	flex-wrap: wrap;
+	padding: 30px;
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
+	border-radius: 20px;
+	width: 234px;
+}
+.item {
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+}
+.text {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 17px;
+}
