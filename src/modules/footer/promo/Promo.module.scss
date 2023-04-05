@@ -1,0 +1,64 @@
+.promo {
+	padding: 120px 0 90px;
+	background-image: url('../../../img/footer/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.form {
+	display: flex;
+	column-gap: 15px;
+	align-items: center;
+	&::after {
+		content: '';
+		width: 345px;
+		height: 260px;
+		position: absolute;
+		z-index: 100;
+		top: 0px;
+		right: 111px;
+		transform: translateY(-46%);
+		background-image: url('../../../img/footer/mother&baby.png');
+		background-repeat: no-repeat;
+	}
+}
+.label {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}
+.label__header {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 22px;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	width: 335px;
+}
+.input {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 17px;
+	color: #ffffff;
+	padding: 15px;
+
+	width: 300px;
+
+	background-color: rgba(255, 255, 255, 0.15);
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	&::placeholder {
+		color: #ffffff;
+	}
+}
+.btn {
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 14px;
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+}
+.img {
+	width: 20px;
+	height: 20px;
+}

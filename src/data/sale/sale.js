@@ -1,3 +1,5 @@
+import { nanoid } from 'nanoid'
+
 import carriage from '../../img/sale/carriage.jpg'
 import ball from '../../img/sale/ball.jpg'
 import bottle from '../../img/sale/bottle.jpg'
@@ -11,6 +13,8 @@ const productsOnSale = [
 		newPrice: '5000 грн',
 		discount: '-15%',
 		picture: carriage,
+		id: nanoid(),
+		watched: false,
 	},
 	{
 		name: 'Іграшка-головоломка Same Toy IQ Ball Cube',
@@ -18,6 +22,8 @@ const productsOnSale = [
 		newPrice: '200 грн',
 		discount: '-30%',
 		picture: ball,
+		id: nanoid(),
+		watched: false,
 	},
 	{
 		name: 'Пляшечка 130 мл',
@@ -25,6 +31,8 @@ const productsOnSale = [
 		newPrice: null,
 		discount: null,
 		picture: bottle,
+		id: nanoid(),
+		watched: true,
 	},
 	{
 		name: 'Автокрісло Maxi-Cosi Citi Concrete grey',
@@ -32,6 +40,8 @@ const productsOnSale = [
 		newPrice: null,
 		discount: null,
 		picture: carChair,
+		id: nanoid(),
+		watched: true,
 	},
 	{
 		name: 'Суміш молочна суха Nutrilon для...',
@@ -39,6 +49,8 @@ const productsOnSale = [
 		newPrice: '300 грн',
 		discount: '-15%',
 		picture: milk,
+		id: nanoid(),
+		watched: false,
 	},
 ]
 export default productsOnSale

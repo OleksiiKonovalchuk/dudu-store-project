@@ -1,9 +1,9 @@
 import css from './Categories.module.scss'
-import list from '../../products/categories/categories'
+import list from '../../data/categories/categories'
 const Categories = () => {
 	return (
 		<section className={css.sectionCategories}>
-			<div className={css.container}>
+			<div className="container">
 				<h2 className={css.sectionHeader}>Популярні Категорії</h2>
 				<ul className={css.list}>
 					<li className={`${css.item} ${css.first}`} key={list[0].id}>
