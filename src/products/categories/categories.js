@@ -1,10 +1,10 @@
 import { nanoid } from 'nanoid'
-import carriage from '../../img/popular/carriage.png'
-import puzzles from '../../img/popular/puzzles.png'
-import pot from '../../img/popular/pot.png'
-import bath from '../../img/popular/bath.png'
-import bed from '../../img/popular/bed.png'
-import room from '../../img/popular/room.png'
+import carriage from '../../img/popular/categories/carriage.png'
+import puzzles from '../../img/popular/categories/puzzles.png'
+import pot from '../../img/popular/categories/pot.png'
+import bath from '../../img/popular/categories/bath.png'
+import bed from '../../img/popular/categories/bed.png'
+import room from '../../img/popular/categories/room.png'
 const popularCategories = [
 	{
 		name: 'Коляски 2в1',
