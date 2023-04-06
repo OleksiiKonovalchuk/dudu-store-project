@@ -1,5 +1,5 @@
 .sale {
-	margin-bottom: 80px;
+	// margin-bottom: 80px;
 }
 .header {
 	font-weight: 700;
@@ -31,6 +31,8 @@
 	margin-bottom: 30px;
 }
 .list {
+	position: relative;
 	display: flex;
 	column-gap: 30px;
+	margin-bottom: 30px;
 }

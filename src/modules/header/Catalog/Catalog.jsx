@@ -16,7 +16,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 const Catalog = () => {
 	return (
 		<Dropdown>
-			<Dropdown.Toggle variant="success" className={css.btn}>
+			<Dropdown.Toggle className={css.btn} id="dropdown-basic">
 				<img src={menu} alt="burger" />
 				<p> КАТАЛОГ</p>
 			</Dropdown.Toggle>

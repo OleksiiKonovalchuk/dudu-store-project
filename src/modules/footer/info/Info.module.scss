@@ -1,0 +1,23 @@
+.info {
+	margin-right: 99px;
+}
+.header {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	margin-bottom: 20px;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.text {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 17px;
+	color: #ffffff;
+}

@@ -2,6 +2,9 @@ import Promo from './promo/Promo'
 
 import css from './Footer.module.scss'
 import Address from './address/Address'
+import Info from './info/Info'
+import FooterCatalog from './catalog/FooterCatalog'
+import Copyrights from './copyrights/Copyrights'
 
 const Footer = () => {
 	return (
@@ -9,7 +12,12 @@ const Footer = () => {
 			<Promo />
 			<div className={css.footer}>
 				<div className="container">
-					<Address />
+					<div className={css.footer__wrapper}>
+						<Address />
+						<Info />
+						<FooterCatalog />
+					</div>
+					<Copyrights />
 				</div>
 			</div>
 		</footer>

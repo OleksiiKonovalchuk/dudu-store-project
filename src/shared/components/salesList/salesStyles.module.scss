@@ -4,20 +4,23 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 13px;
-	&:hover .options {
-		visibility: visible;
-		opacity: 1;
-	}
+	margin-bottom: 80px;
 }
+
 .options {
 	position: absolute;
 	visibility: hidden;
+	z-index: -100;
 	opacity: 0;
 	bottom: 0;
 	transform: translateY(calc(100% + 13px));
 	display: flex;
 	gap: 15px;
 	transition: all linear 250ms;
+	.item:hover & {
+		visibility: visible;
+		opacity: 1;
+	}
 }
 .buyBtn {
 	padding: 20px;
