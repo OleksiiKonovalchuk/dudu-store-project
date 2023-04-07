@@ -6,8 +6,8 @@ import img3 from '../../img/bigImages/bath.jpg'
 import img4 from '../../img/bigImages/blanket.jpg'
 import img5 from '../../img/bigImages/carriage.jpg'
 import img6 from '../../img/bigImages/pazzle.jpg'
-import rightArrow from '../../img/hero/rightArrow.svg'
-import leftArrow from '../../img/hero/leftArrow.svg'
+import { SlickArrowLeft, SlickArrowRight } from './HeroArrows'
+
 import css from './Hero.module.scss'
 const SimpleSlider = () => {
 	const settings = {
@@ -19,10 +19,12 @@ const SimpleSlider = () => {
 		arrows: true,
 		centerMode: true,
 		dotsClass: `slick-dots ${css.dots}`,
-
-		prevArrow: <img src={leftArrow} alt="left" />,
-		nextArrow: <img className={css.rightArrow} src={rightArrow} alt="right" />,
+		prevArrow: <SlickArrowLeft css={css} />,
+		nextArrow: <SlickArrowRight css={css} />,
 	}
+	// prevArrow: ,
+	// nextArrow: ,
+
 	return (
 		<>
 			<h2 className="visually-hidden">Single Item</h2>

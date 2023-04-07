@@ -15,18 +15,18 @@ import toy from '../../../img/catalog/toy.svg'
 import Dropdown from 'react-bootstrap/Dropdown'
 const Catalog = () => {
 	return (
-		<Dropdown>
+		<Dropdown variant="success">
 			<Dropdown.Toggle className={css.btn} id="dropdown-basic">
 				<img src={menu} alt="burger" />
 				<p> КАТАЛОГ</p>
 			</Dropdown.Toggle>
 
-			<Dropdown.Menu className={css.menu}>
-				<Dropdown.Item href="#" className={css.item}>
+			<Dropdown.Menu className={css.menu} variant="dark">
+				<Dropdown.Item href="#" className={css.item} role="menuitemcheckbox">
 					<img src={carriage} alt="" />
 					<p className={css.text}>Дитячі коляски</p>
 				</Dropdown.Item>
-				<Dropdown.Item href="#" className={css.item}>
+				<Dropdown.Item role="menuitemradio" href="#" className={css.item}>
 					<img src={room} alt="" />
 					<p className={css.text}>Дитяча кімната</p>
 				</Dropdown.Item>
