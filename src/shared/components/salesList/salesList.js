@@ -6,7 +6,7 @@ export const salesList = (products) =>
 	products.map(({ name, newPrice, oldPrice, picture, discount, id }) => {
 		const priceClass = newPrice ? `${css.hasDiscount} ${css.oldPrice}` : css.oldPrice
 		return (
-			<li className={css.item} key={id}>
+			<div className={css.item} key={id}>
 				<div className={css.imgWrapper}>
 					<img className={css.img} src={picture} alt={name} />
 					{discount && <span className={css.discount}>{discount}</span>}
@@ -25,6 +25,6 @@ export const salesList = (products) =>
 						<img src={comparison} alt="comparison" width="29" />
 					</button>
 				</div>
-			</li>
+			</div>
 		)
 	})

@@ -1,6 +1,5 @@
 import Slider from 'react-slick'
-import rightArrow from '../../img/hero/rightArrow.svg'
-import leftArrow from '../../img/hero/leftArrow.svg'
+
 import productsOnSale from '../../data/sale/sale'
 import { salesList } from '../../shared/components/salesList/salesList'
 import css from './Sale.module.scss'
@@ -10,12 +9,12 @@ const Sale = () => {
 	const settings = {
 		infinite: true,
 		speed: 500,
-		slidesToShow: 5,
+		slidesToShow: 4,
 		slidesToScroll: 1,
-		centerMode: false,
-
-		prevArrow: <img src={leftArrow} alt="left" />,
-		nextArrow: <img id={css.right} src={rightArrow} alt="right" />,
+		swipeToSlide: true,
+		arrows: false,
+		centerMode: true,
+		centerPadding: '10%',
 	}
 
 	return (
