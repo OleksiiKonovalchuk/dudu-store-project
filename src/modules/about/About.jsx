@@ -2,6 +2,7 @@ import { useState } from 'react'
 import css from './About.module.scss'
 const About = () => {
 	const [show, setShow] = useState(false)
+	const btnText = show ? 'Менше' : 'Докладніше'
 	const clickHandler = () => {
 		if (!show) {
 			return setShow(true)
@@ -55,7 +56,7 @@ const About = () => {
 					однією сім'єю!
 				</p>
 				<button className={css.button} onClick={clickHandler}>
-					Докладніше
+					{btnText}
 				</button>
 			</div>
 		</section>

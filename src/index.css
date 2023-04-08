@@ -27,6 +27,7 @@ h6 {
 }
 img {
 	display: block;
+	margin-right: 0;
 }
 address {
 	font-style: normal;

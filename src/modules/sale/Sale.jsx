@@ -7,14 +7,14 @@ import css from './Sale.module.scss'
 const Sale = () => {
 	const products = salesList(productsOnSale, css)
 	const settings = {
-		infinite: true,
-		speed: 500,
-		slidesToShow: 4,
-		slidesToScroll: 1,
+		infinite: false,
+		speed: 1000,
+		slidesToShow: 5,
+		// slidesToScroll: 1,
 		swipeToSlide: true,
 		arrows: false,
-		centerMode: true,
-		centerPadding: '10%',
+		// centerMode: true,
+		// centerPadding: '5%',
 	}
 
 	return (
