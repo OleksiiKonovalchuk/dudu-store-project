@@ -1,4 +1,5 @@
 import logo from '../../img/header/duduLogo.svg'
+import css from './Header.module.scss'
 
 import NavBar from './NavBar/NavBar'
 import SocialsNav from '../../shared/components/SocialsNav/SocialsNav'
@@ -8,7 +9,6 @@ import Catalog from './Catalog/Catalog'
 import Filter from './Filter/Filter'
 import UserMenu from './UserMenu/UserMenu'
 
-import css from './Header.module.scss'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
