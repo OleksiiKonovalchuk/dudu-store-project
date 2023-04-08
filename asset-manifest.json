@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dudu-store-project/static/css/main.e0f7c7f9.css",
-    "main.js": "/dudu-store-project/static/js/main.23e5a02c.js",
+    "main.css": "/dudu-store-project/static/css/main.90d8689e.css",
+    "main.js": "/dudu-store-project/static/js/main.0245658a.js",
     "static/media/pazzle.jpg": "/dudu-store-project/static/media/pazzle.4420fff12ee6e90186cc.jpg",
     "static/media/babyBed.jpg": "/dudu-store-project/static/media/babyBed.e4a2390ab7bb7fc17c1d.jpg",
     "static/media/blanket.jpg": "/dudu-store-project/static/media/blanket.ab42be6ef33619e74078.jpg",
@@ -53,11 +53,11 @@
     "static/media/Menu.svg": "/dudu-store-project/static/media/Menu.a0202840fb6d12f60ef3e81a406fb429.svg",
     "static/media/leftArrow.svg": "/dudu-store-project/static/media/leftArrow.cdb6e013f3376c842a010a16dfa2088d.svg",
     "static/media/rightArrow.svg": "/dudu-store-project/static/media/rightArrow.8fac9680bae2fb541b10563a198523f2.svg",
-    "main.e0f7c7f9.css.map": "/dudu-store-project/static/css/main.e0f7c7f9.css.map",
-    "main.23e5a02c.js.map": "/dudu-store-project/static/js/main.23e5a02c.js.map"
+    "main.90d8689e.css.map": "/dudu-store-project/static/css/main.90d8689e.css.map",
+    "main.0245658a.js.map": "/dudu-store-project/static/js/main.0245658a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0f7c7f9.css",
-    "static/js/main.23e5a02c.js"
+    "static/css/main.90d8689e.css",
+    "static/js/main.0245658a.js"
   ]
 }
