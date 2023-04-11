@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dudu-store-project/static/css/main.90d8689e.css",
-    "main.js": "/dudu-store-project/static/js/main.0245658a.js",
+    "main.css": "/dudu-store-project/static/css/main.2cc74bea.css",
+    "main.js": "/dudu-store-project/static/js/main.bcd237a7.js",
     "static/media/pazzle.jpg": "/dudu-store-project/static/media/pazzle.4420fff12ee6e90186cc.jpg",
     "static/media/babyBed.jpg": "/dudu-store-project/static/media/babyBed.e4a2390ab7bb7fc17c1d.jpg",
     "static/media/blanket.jpg": "/dudu-store-project/static/media/blanket.ab42be6ef33619e74078.jpg",
@@ -12,6 +12,8 @@
     "static/media/mother&baby.png": "/dudu-store-project/static/media/mother&baby.81a996320b2007716a79.png",
     "static/media/bath.jpg": "/dudu-store-project/static/media/bath.d7ae9cfbffa148a15558.jpg",
     "static/media/visa.svg": "/dudu-store-project/static/media/visa.f65799d51bff8587bb32fbc59ec9d1c4.svg",
+    "static/media/yawnBaby_tablet.jpg": "/dudu-store-project/static/media/yawnBaby_tablet.06107475f15e884374e4.jpg",
+    "static/media/yawnBaby_mobile.jpg": "/dudu-store-project/static/media/yawnBaby_mobile.a79d14da87f908947fad.jpg",
     "static/media/carriage.png": "/dudu-store-project/static/media/carriage.6cb199c9768f48866225.png",
     "static/media/milk.jpg": "/dudu-store-project/static/media/milk.bf3bdbe91e528e7ad01d.jpg",
     "static/media/puzzles.png": "/dudu-store-project/static/media/puzzles.aa5113b7942a533bf629.png",
@@ -51,13 +53,14 @@
     "static/media/search.svg": "/dudu-store-project/static/media/search.cd398de720f0b85cc3e8dcbceff2be1c.svg",
     "static/media/instagram.svg": "/dudu-store-project/static/media/instagram.a10fde5b40b242503e2d3acd26339a47.svg",
     "static/media/Menu.svg": "/dudu-store-project/static/media/Menu.a0202840fb6d12f60ef3e81a406fb429.svg",
+    "static/media/baguette.svg": "/dudu-store-project/static/media/baguette.69067e324bc1e934a00e17272a5e988e.svg",
     "static/media/leftArrow.svg": "/dudu-store-project/static/media/leftArrow.cdb6e013f3376c842a010a16dfa2088d.svg",
     "static/media/rightArrow.svg": "/dudu-store-project/static/media/rightArrow.8fac9680bae2fb541b10563a198523f2.svg",
-    "main.90d8689e.css.map": "/dudu-store-project/static/css/main.90d8689e.css.map",
-    "main.0245658a.js.map": "/dudu-store-project/static/js/main.0245658a.js.map"
+    "main.2cc74bea.css.map": "/dudu-store-project/static/css/main.2cc74bea.css.map",
+    "main.bcd237a7.js.map": "/dudu-store-project/static/js/main.bcd237a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d8689e.css",
-    "static/js/main.0245658a.js"
+    "static/css/main.2cc74bea.css",
+    "static/js/main.bcd237a7.js"
   ]
 }
