@@ -1,23 +1,29 @@
 .header {
 	background-color: #d03664;
-	padding-top: 20px;
-	margin-bottom: 30px;
+	padding: 20px 16px;
 }
 
-.navWrapper {
-	display: flex;
-	column-gap: 30px;
-	align-items: center;
-	margin-bottom: 20px;
+@media screen and (min-width: 480px) {
 }
-.phone {
-	font-weight: 500;
-	font-size: 17px;
-	line-height: 19px;
-	margin-left: auto;
+@media screen and (min-width: 768px) {
 }
-.catalogWrapper {
-	display: flex;
-	column-gap: 30px;
-	align-items: center;
+@media screen and (min-width: 1000px) {
+}
+@media screen and (min-width: 1290px) {
+	.header {
+		margin-bottom: 30px;
+		padding: 20px 0 0 0;
+	}
+	.navWrapper {
+		display: flex;
+		column-gap: 30px;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.catalogWrapper {
+		display: flex;
+		column-gap: 30px;
+		align-items: center;
+	}
 }

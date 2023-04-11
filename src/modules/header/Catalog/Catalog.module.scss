@@ -1,9 +1,10 @@
 .catalogWrapper {
 	position: relative;
+	margin-bottom: 40px;
 }
 .btn {
 	text-decoration: none;
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 20px;
 	border: none;
 	padding: 30px;
 	display: flex;
@@ -31,6 +32,7 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
+	width: 100%;
 	visibility: hidden;
 	opacity: 0;
 	display: flex;
@@ -64,4 +66,12 @@
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 17px;
+}
+@media screen and (min-width: 1290px) {
+	.btn {
+		border-radius: 20px 20px 0px 0px;
+	}
+	.catalogWrapper {
+		margin-bottom: 0;
+	}
 }

@@ -1,13 +1,29 @@
+.nav {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}
 .list {
 	display: flex;
-	column-gap: 20px;
+	flex-direction: column;
+	row-gap: 30px;
 }
 .link {
 	text-decoration: none;
 	font-weight: 300;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 15px;
+	line-height: 17px;
 	&:global(.active) {
 		color: purple;
+	}
+}
+@media screen and (min-width: 1290px) {
+	.list {
+		column-gap: 20px;
+		flex-direction: row;
+	}
+	.link {
+		font-size: 14px;
+		line-height: 16px;
 	}
 }

@@ -1,0 +1,68 @@
+.menuWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 90px;
+	height: 20px;
+}
+.menuBurger {
+	width: 30px;
+	height: 18px;
+	margin-right: 10px;
+}
+.backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(71, 64, 64);
+}
+.menu {
+	background-color: #d03664;
+
+	width: 268px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 16px;
+}
+.phone {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 19px;
+	margin-bottom: 30px;
+	&::before {
+		content: '';
+		display: block;
+		margin: 40px 0;
+		border: 1px solid #ffc5d6;
+		height: 0;
+		width: 100%;
+	}
+}
+.closeBtn {
+	position: absolute;
+	top: 20px;
+	left: 290px;
+	display: block;
+	font-size: 50px;
+	font-weight: 100;
+	transform: rotate(45deg);
+	color: #ffc5d6;
+}
+@media screen and (min-width: 768px) {
+	.logo {
+		width: 138px;
+		height: 32px;
+	}
+	.menuBurger {
+		margin-right: 0;
+	}
+	.menuWrapper {
+		column-gap: 30px;
+	}
+}

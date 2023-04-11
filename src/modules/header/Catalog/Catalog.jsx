@@ -7,13 +7,9 @@ import { useState } from 'react'
 const Catalog = () => {
 	const [show, setShow] = useState(false)
 	const ourCatalog = catalogCreator({ css, catalogList })
-	// const onOutsideClick = (e) => {
-	// 	console.log(e)
-	// }
-	// window.addEventListener('click', onOutsideClick)
 	return (
 		<div className={css.catalogWrapper} onMouseLeave={() => setShow(false)}>
-			<button className={css.btn} id="dropdown-basic" onClick={() => setShow(!show)}>
+			<button className={css.btn} onClick={() => setShow(!show)}>
 				<img src={menu} alt="burger" />
 				<p> КАТАЛОГ</p>
 			</button>

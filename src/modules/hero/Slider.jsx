@@ -1,5 +1,7 @@
 import Slider from 'react-slick'
 import baby from '../../img/hero/babyYawning.jpg'
+import babyMobile from '../../img/hero/yawnBaby_mobile.jpg'
+import babyTablet from '../../img/hero/yawnBaby_tablet.jpg'
 import img1 from '../../img/bigImages/babyBed.jpg'
 import img2 from '../../img/bigImages/babyPot.jpg'
 import img3 from '../../img/bigImages/bath.jpg'
@@ -7,9 +9,22 @@ import img4 from '../../img/bigImages/blanket.jpg'
 import img5 from '../../img/bigImages/carriage.jpg'
 import img6 from '../../img/bigImages/pazzle.jpg'
 import { SlickArrowLeft, SlickArrowRight } from './HeroArrows'
-
+import { useRef } from 'react'
 import css from './Hero.module.scss'
 const SimpleSlider = () => {
+	const { current } = useRef(window.innerWidth)
+	const imagePicker = (width) => {
+		if (width >= 1290) {
+			return baby
+		}
+		if (width >= 480) {
+			return babyTablet
+		}
+		if (width <= 360) {
+			return babyMobile
+		}
+	}
+
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -17,7 +32,7 @@ const SimpleSlider = () => {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
-		centerMode: true,
+		// centerMode: true,
 		dotsClass: `slick-dots ${css.dots}`,
 		prevArrow: <SlickArrowLeft css={css} />,
 		nextArrow: <SlickArrowRight css={css} />,
@@ -30,7 +45,7 @@ const SimpleSlider = () => {
 			<h2 className="visually-hidden">Single Item</h2>
 			<Slider {...settings}>
 				<div className={css.slider__imageWrapper}>
-					<img className={css.slider__image} src={baby} alt="baby" />
+					<img className={css.slider__image} src={imagePicker(current)} alt="baby" />
 				</div>
 				<div className={css.slider__imageWrapper}>
 					<img className={css.slider__image} src={img1} alt="img1" />

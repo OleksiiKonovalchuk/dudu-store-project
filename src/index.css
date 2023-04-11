@@ -49,6 +49,7 @@ textarea {
 	font-size: 100%;
 	line-height: 1.15;
 	background-color: transparent;
+	padding: 0;
 	border: none;
 	cursor: pointer;
 }
@@ -66,7 +67,27 @@ textarea {
 	overflow: hidden;
 }
 .container {
-	width: 1290px;
+	width: 326px;
 	margin: 0 auto;
-	position: relative;
+}
+@media screen and (min-width: 480px) {
+	.container {
+		width: 448px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.container {
+		width: 708px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 940px;
+	}
+}
+@media screen and (min-width: 1290px) {
+	.container {
+		margin: 0 auto;
+		width: 1290px;
+	}
 }
