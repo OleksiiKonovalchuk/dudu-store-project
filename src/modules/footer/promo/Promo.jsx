@@ -5,7 +5,7 @@ const Promo = () => {
 	const [email, setEmail] = useState('')
 	return (
 		<div className={css.promo}>
-			<div className="container">
+			<div className={`container ${css.container}`}>
 				<form
 					className={css.form}
 					onSubmit={(e) => {

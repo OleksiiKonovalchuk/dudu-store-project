@@ -13,13 +13,13 @@ const HomePage = () => {
 		<>
 			<Header />
 			<Hero />
-			{/* <Sale /> */}
-			{/* <Categories /> */}
-			{/* <Brands /> */}
-			{/* <About /> */}
-			{/* <Watched /> */}
-			{/* <Footer /> */}
-			{/* <Outlet /> */}
+			<Sale />
+			<Categories />
+			<Brands />
+			<About />
+			<Watched />
+			<Footer />
+			<Outlet />
 		</>
 	)
 }
