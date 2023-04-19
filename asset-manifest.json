@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/dudu-store-project/static/css/main.0ce75c2d.css",
-    "main.js": "/dudu-store-project/static/js/main.a0065f7c.js",
+    "main.css": "/dudu-store-project/static/css/main.93403a5f.css",
+    "main.js": "/dudu-store-project/static/js/main.f5158001.js",
     "static/media/pazzle.jpg": "/dudu-store-project/static/media/pazzle.4420fff12ee6e90186cc.jpg",
+    "static/media/yawnBaby_1000.png": "/dudu-store-project/static/media/yawnBaby_1000.15c751c6c9cfb9f283ea.png",
     "static/media/babyBed.jpg": "/dudu-store-project/static/media/babyBed.e4a2390ab7bb7fc17c1d.jpg",
     "static/media/blanket.jpg": "/dudu-store-project/static/media/blanket.ab42be6ef33619e74078.jpg",
     "static/media/babyYawning.jpg": "/dudu-store-project/static/media/babyYawning.4cda11f4cac0c81fc851.jpg",
+    "static/media/yawnBaby_768.png": "/dudu-store-project/static/media/yawnBaby_768.a483960709ca8a4d7a17.png",
     "static/media/carriage.jpg": "/dudu-store-project/static/media/carriage.427fab0b41774b5d2f31.jpg",
     "static/media/babyPot.jpg": "/dudu-store-project/static/media/babyPot.3beca2065a801df45c59.jpg",
     "static/media/bed.png": "/dudu-store-project/static/media/bed.b0aca5aa78f327c39c18.png",
@@ -56,11 +58,11 @@
     "static/media/baguette.svg": "/dudu-store-project/static/media/baguette.69067e324bc1e934a00e17272a5e988e.svg",
     "static/media/leftArrow.svg": "/dudu-store-project/static/media/leftArrow.cdb6e013f3376c842a010a16dfa2088d.svg",
     "static/media/rightArrow.svg": "/dudu-store-project/static/media/rightArrow.8fac9680bae2fb541b10563a198523f2.svg",
-    "main.0ce75c2d.css.map": "/dudu-store-project/static/css/main.0ce75c2d.css.map",
-    "main.a0065f7c.js.map": "/dudu-store-project/static/js/main.a0065f7c.js.map"
+    "main.93403a5f.css.map": "/dudu-store-project/static/css/main.93403a5f.css.map",
+    "main.f5158001.js.map": "/dudu-store-project/static/js/main.f5158001.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce75c2d.css",
-    "static/js/main.a0065f7c.js"
+    "static/css/main.93403a5f.css",
+    "static/js/main.f5158001.js"
   ]
 }
