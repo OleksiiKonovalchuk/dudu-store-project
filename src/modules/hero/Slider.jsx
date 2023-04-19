@@ -1,7 +1,9 @@
 import Slider from 'react-slick'
-import baby from '../../img/hero/babyYawning.jpg'
+import babyDesktop from '../../img/hero/babyYawning.jpg'
 import babyMobile from '../../img/hero/yawnBaby_mobile.jpg'
 import babyTablet from '../../img/hero/yawnBaby_tablet.jpg'
+import baby768 from '../../img/hero/yawnBaby_768.png'
+import baby1000 from '../../img/hero/yawnBaby_1000.png'
 import img1 from '../../img/bigImages/babyBed.jpg'
 import img2 from '../../img/bigImages/babyPot.jpg'
 import img3 from '../../img/bigImages/bath.jpg'
@@ -15,7 +17,7 @@ const SimpleSlider = () => {
 	const { current } = useRef(window.innerWidth)
 	const imagePicker = (width) => {
 		if (width >= 1290) {
-			return baby
+			return babyDesktop
 		}
 		if (width >= 480) {
 			return babyTablet
@@ -45,7 +47,12 @@ const SimpleSlider = () => {
 			<h2 className="visually-hidden">Single Item</h2>
 			<Slider {...settings}>
 				<div className={css.slider__imageWrapper}>
-					<img className={css.slider__image} src={imagePicker(current)} alt="baby" />
+					<img
+						srcSet={`${babyMobile} 360w, ${babyTablet} 480w, ${baby768} 768w, ${baby1000} 1000w, ${babyDesktop} 1290w`}
+						className={css.slider__image}
+						src={babyDesktop}
+						alt="baby"
+					/>
 				</div>
 				<div className={css.slider__imageWrapper}>
 					<img className={css.slider__image} src={img1} alt="img1" />

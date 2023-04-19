@@ -7,8 +7,8 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
-	height: 221px;
-	width: 1000px;
+	height: 336px;
+	width: auto;
 	margin-bottom: 15px;
 	&.showMore {
 		height: auto;
@@ -18,7 +18,18 @@
 .about {
 	margin-bottom: 80px;
 }
+.aboutWrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .button {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 17px;
@@ -26,9 +37,24 @@
 
 	color: #d03664;
 }
-.aboutWrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+@media screen and (min-width: 480px) {
+	.text {
+		height: 240px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.text {
+		height: 287px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.text {
+		height: 253px;
+	}
+}
+@media screen and (min-width: 1290px) {
+	.text {
+		height: 221px;
+		width: 1000px;
+	}
 }

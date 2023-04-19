@@ -10,11 +10,38 @@ const Sale = () => {
 		infinite: false,
 		speed: 1000,
 		slidesToShow: 5,
-		// slidesToScroll: 1,
 		swipeToSlide: true,
 		arrows: false,
-		// centerMode: true,
-		// centerPadding: '5%',
+		responsive: [
+			{
+				breakpoint: 1289,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	}
 
 	return (

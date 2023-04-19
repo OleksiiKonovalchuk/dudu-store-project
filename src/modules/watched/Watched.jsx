@@ -12,7 +12,36 @@ const Watched = () => {
 		slidesToShow: 5,
 		slidesToScroll: 1,
 		arrow: false,
-		centerMode: true,
+		responsive: [
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 360,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	}
 	return (
 		<section className={css.watched}>

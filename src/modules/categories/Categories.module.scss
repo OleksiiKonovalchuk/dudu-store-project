@@ -13,14 +13,16 @@
 }
 .list {
 	display: flex;
-	gap: 30px;
+	flex-direction: column;
+	row-gap: 16px;
 }
 .item {
 	position: relative;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	row-gap: 30px;
+	row-gap: 16px;
+	overflow: hidden;
 }
 .img {
 	margin-left: auto;
@@ -38,34 +40,132 @@
 	line-height: 17px;
 	color: #ffffff;
 }
+.img {
+	height: 200px;
+}
 .first {
 	background-image: linear-gradient(208.16deg, #6ad245 0%, #58be34 100%);
-	height: 410px;
+	height: 180px;
+	width: 100%;
 }
 .second {
-	width: 300px;
-	height: 190px;
+	height: 180px;
+	width: 100%;
 
 	background: #f99c11;
 }
 .third {
-	width: 300px;
-	height: 190px;
+	height: 180px;
+	width: 100%;
 
 	background-image: linear-gradient(248.14deg, #2deae4 0%, #27d8d2 100%);
 }
 .fourth {
-	height: 410px;
-	width: 300px;
+	height: 180px;
+	width: 100%;
 	background-image: linear-gradient(208.16deg, #4f8ae2 0%, #3a73c9 100%);
 }
 .fifth {
-	width: 300px;
-	height: 190px;
+	height: 180px;
+	width: 100%;
 	background-image: linear-gradient(247.06deg, #d84545 -1.64%, #cc3c3c 100%);
 }
 .sixth {
-	width: 300px;
-	height: 190px;
+	height: 180px;
+	width: 100%;
 	background-image: linear-gradient(248.14deg, #a24fe2 0%, #8e3ad0 100%);
+}
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+	.list {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	.item {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.img {
+		height: auto;
+	}
+	.first {
+		height: 410px;
+		width: 339px;
+	}
+	.second {
+		width: 339px;
+		height: 190px;
+	}
+	.third {
+		width: 339px;
+		height: 190px;
+	}
+	.fourth {
+		right: 0;
+		width: 339px;
+		height: 410px;
+	}
+	.fifth {
+		width: 339px;
+		height: 190px;
+	}
+	.sixth {
+		width: 339px;
+		height: 190px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.first {
+		width: 455px;
+		height: 410px;
+	}
+	.second {
+		width: 455px;
+		height: 190px;
+	}
+	.third {
+		width: 455px;
+		height: 190px;
+	}
+	.fourth {
+		width: 455px;
+		height: 410px;
+	}
+	.fifth {
+		width: 455px;
+		height: 190px;
+	}
+	.sixth {
+		width: 455px;
+		height: 190px;
+	}
+}
+@media screen and (min-width: 1290px) {
+	.first {
+		width: 300px;
+		height: 410px;
+	}
+	.second {
+		width: 300px;
+		height: 190px;
+	}
+	.third {
+		width: 300px;
+		height: 190px;
+	}
+	.fourth {
+		height: 410px;
+		width: 300px;
+	}
+	.fifth {
+		width: 300px;
+		height: 190px;
+	}
+	.sixth {
+		width: 300px;
+		height: 190px;
+	}
 }

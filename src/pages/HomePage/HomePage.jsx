@@ -18,9 +18,14 @@ const HomePage = () => {
 			<Brands />
 			<About />
 			<Watched />
-			<Footer />
-			<Outlet />
+			{/* <Footer /> */}
+			{/* <Outlet /> */}
 		</>
 	)
 }
 export default HomePage
+
+// @media screen and (min-width: 480px) {}
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 1000px) {}
+// @media screen and (min-width: 1290px) {}

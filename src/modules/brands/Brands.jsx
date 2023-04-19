@@ -3,14 +3,45 @@ import popularBrands from '../../data/brands/brands'
 import css from './Brands.module.scss'
 const Brands = () => {
 	const settings = {
-		infinite: true,
+		// infinite: true,
 		speed: 500,
 		slidesToShow: 6,
 		slidesToScroll: 1,
 		swipeToSlide: true,
 		arrows: false,
-		centerMode: true,
-		centerPadding: '10%',
+		className: css.slider,
+		// centerMode: true,
+		// centerPadding: '10%',
+		responsive: [
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 360,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	}
 	const brands = popularBrands.map(({ name, logo, id, website }) => {
 		return (
